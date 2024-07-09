@@ -1,1 +1,1 @@
-# Example
+# RST project information security
