@@ -1,10 +1,17 @@
 /* Base */
 body {
     margin: 0 !important;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 a {
     text-decoration: none;
+}
+
+path {
+    fill: var(--path-color);
 }
 
 /* Navbar */
@@ -137,6 +144,54 @@ a {
     bottom: 10px;
 }
 
+/* Footer */
+.footer {
+    font-family: "Manrope", sans-serif;
+    margin-top: 13rem;
+    margin-left: 5rem;
+}
+
+.ftitle {
+    margin: 0;
+}
+
+.fdescription {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.border {
+    width: 1710px;
+    height: 2px;
+    background: #000000;
+}
+
+.Rivi {
+    display: flex;
+    margin-top: 10px;
+}
+
+.Made {
+    margin: 0;
+}
+
+.Arivi {
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
+.Media {
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    left: 1500px;
+}
+
+.Telegram {
+    margin-left: 5px;
+    margin-right: 5px;
+}
 
 /* Change Theme */
 :root {
@@ -145,6 +200,7 @@ a {
     --accent-color: #000000;
     --border-color: #000000;
     --box-shadow-color: #000000;
+    --path-color: #000000;
 }
    
 body {
@@ -155,6 +211,7 @@ body {
    
 a {
     color: var(--accent-color);
+    transition: 0.3s;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -164,6 +221,7 @@ a {
       --accent-color: #ffffff;
       --border-color: #ffffff;
       --box-shadow-color: #ffffff;
+      --path-color: #ffffff;
     }
 }
 
@@ -173,6 +231,7 @@ body.dark-theme {
     --accent-color: #ffffff;
     --border-color: #ffffff;
     --box-shadow-color: #ffffff;
+    --path-color: #ffffff;
     transition: 0.3s;
 }
 
