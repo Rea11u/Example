@@ -1,0 +1,39 @@
+@media (max-width: 450px) {
+    .navbar {
+        padding-left: 2rem;
+    }
+    .Ntitle {
+        font-size: 20px;
+    }
+    .Nb {
+        margin-bottom: 0px;
+        margin-top: 11px;
+    }
+    .Title {
+        font-size: 70px;
+        margin-top: 100px;
+    }
+    .Description1 {
+        font-size: 12px;
+    }
+    .Description2 {
+        font-size: 12px;
+    }
+    .Multibtn {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Anime {
+        margin-bottom: 30px;
+    }
+    .Theme {
+        left: 0px;
+        bottom: 20px;
+    }
+}
+
+@media (max-width: 4000px) {
+    .Theme {
+        left: 1000px;
+    }
+}
