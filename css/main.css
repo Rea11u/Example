@@ -212,17 +212,6 @@ a {
     transition: 0.3s;
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-      --background-color: #222222;
-      --text-color: #ffffff;
-      --accent-color: #ffffff;
-      --border-color: #ffffff;
-      --box-shadow-color: #ffffff;
-      --path-color: #ffffff;
-    }
-}
-
 body.dark-theme {
     --background-color: #222222;
     --text-color: #ffffff;
