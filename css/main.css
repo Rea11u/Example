@@ -53,14 +53,12 @@ path {
 .Theme {
     display: flex;
     flex-wrap: nowrap;
-    margin-left: 20px;
-    position: relative;
-    left: 1300px;
+    position: absolute;
+    right: 60px;
+    top: 10px;
 }
 
 .Ntheme {
-    margin-top: 30px;
-    margin-bottom: 30px;
     color: black;
     width: 50px;
     height: 50px;
@@ -162,7 +160,7 @@ path {
 }
 
 .border {
-    width: 1710px;
+    width: 1770px;
     height: 2px;
     background: #000000;
 }
@@ -184,8 +182,8 @@ path {
 .Media {
     display: flex;
     flex-wrap: nowrap;
-    position: relative;
-    left: 1500px;
+    position: absolute;
+    right: 70px;
 }
 
 .Telegram {
